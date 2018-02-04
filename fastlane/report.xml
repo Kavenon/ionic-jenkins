@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: Verifying fastlane version" time="0.068514999">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.002372526">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: crashlytics" time="27.599662008">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>

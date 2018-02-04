@@ -1,0 +1,19 @@
+# More documentation about how to customize your build
+# can be found here:
+# https://docs.fastlane.tools
+fastlane_version "2.68.0"
+
+default_platform :android
+
+# Fastfile actions accept additional configuration, but
+# don't worry, fastlane will prompt you for required
+# info which you can add here later
+lane :beta do
+
+  # upload to Beta by Crashlytics
+  crashlytics(
+    apk_path: "./platforms/android/app/build/outputs/apk/debug/app-debug.apk",
+    api_token: "a886953669c561684b8c3911b0f6521a11e508e9",
+    build_secret: "20d17a3e4e87529f2e62a9d0baadf687460b8f866dd16d8e542c4410b653bc64"
+  )
+end
