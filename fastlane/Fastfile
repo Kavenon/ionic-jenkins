@@ -12,7 +12,7 @@ lane :beta do
 
   # upload to Beta by Crashlytics
   crashlytics(
-    apk_path: "./platforms/android/app/build/outputs/apk/debug/app-debug.apk",
+    apk_path: "./platforms/android/build/outputs/apk/debug/android-debug.apk",
     api_token: "a886953669c561684b8c3911b0f6521a11e508e9",
     build_secret: "20d17a3e4e87529f2e62a9d0baadf687460b8f866dd16d8e542c4410b653bc64"
   )

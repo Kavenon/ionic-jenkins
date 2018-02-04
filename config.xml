@@ -45,9 +45,9 @@
     <plugin name="cordova-plugin-splashscreen" spec="^5.0.2" />
     <plugin name="cordova-plugin-ionic-webview" spec="^1.1.16" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.0.5" />
-    <engine name="android" spec="~7.0.0" />
     <plugin name="cordova-fabric-plugin" spec="^1.1.10">
         <variable name="FABRIC_API_KEY" value="a886953669c561684b8c3911b0f6521a11e508e9" />
         <variable name="FABRIC_API_SECRET" value="20d17a3e4e87529f2e62a9d0baadf687460b8f866dd16d8e542c4410b653bc64" />
     </plugin>
+    <engine name="android" spec="~6.4.0" />
 </widget>
